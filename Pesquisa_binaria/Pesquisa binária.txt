@@ -1,0 +1,4 @@
+Sendo um algoritmo de busca!, pesquisa binária, busca um elemento em uma lista ordenada. Se o elemento estiver na lista, a pesquisa binária
+ira retornar a sua localização, caso contrário, sera retornado null/None.
+Com a pesquisa binária você chuta um número intermediario e elimina metade dos números restantes de cada vez.
+Sempre divida por '2'

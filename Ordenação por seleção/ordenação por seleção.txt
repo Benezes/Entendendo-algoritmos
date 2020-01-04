@@ -1,0 +1,25 @@
+Devemos entender o que é array e lista encadeada.
+Um array usa memória "alugada", eu posso setar 5 espaços de memória para colocar o que eu quero la dentro, lá eles estarão juntos/próximos.
+Uma lista encadeada, os elementos não estarão juntos porém estao ligados entre sí pois um segura consigo o endereço para o próximo elemento.
+
+No array eu posso andar livremente entre os endereços pois eles estão juntos, mas tem as suas limitaçoes, pois não é flexivel e pode ocupar espaços
+de mais ou de menos e isso pode prejudicar a memória.
+
+Na lista encadeada, eu não posso andar livremente a não ser um por um. Se eu quiser ir do endereço 1 até o 5 devo fazer: 
+endereço#1 -> endereço#2 -> endereço#3 -> endereço#4 -> endereço#5
+Isso se da pois eles estão separados da memória, para ir ao terceiro elemento você deve passar do primeiro, segundo e dai o terceiro. Ela é mais
+flexivel, ocupa espaços suficientes, porém é em alguns casos pode ser trabalhosa.
+
+O que é mais usado: arrays ou listas? Obviamente, isso depende do caso em que se aplicam. 
+Entretanto os arrays são mais comuns porque permitem acesso aleatório. 
+Existem dois tipos de acesso: o aleatório e o sequencial. O sequencial significa ler os elementos, um por um, começando pelo primeiro. 
+Listas encadeadas só podem lidar com acesso sequencial. 
+Se você quiser ler o décimo elemento de uma lista encadeada, 
+primeiro precisará ler os nove elementos anteriores para chegar ao endereço do décimo elemento.
+O aleatório permite que você pule direto para o décimo elemento.
+Muitos casos requerem o acesso aleatório, o que faz os arrays serem mais utilizados.
+
+!!!!
+A ordenação por seleção é um algoritmo bom, mas não é muito rápido. 
+O Quicksort é um algoritmo de ordenação mais rápido, que tem tempo de execução de apenas O( n log n).
+!!!!
