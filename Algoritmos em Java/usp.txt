@@ -1,0 +1,4 @@
+Arquivos referentes aos exercícios do curso de algoritmos da usp. 
+Todos os algoritmos aqui postados foram feitos em Java.
+** Análise assintótica **
+Material de apoio: https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/Oh.html
